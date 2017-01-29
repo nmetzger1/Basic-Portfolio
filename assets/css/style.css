@@ -27,7 +27,7 @@ h1{
 	color: #ffffff;
 	background-color: #4aaaa5;
 	width: 300px;
-	height: 60px;
+	height: 61px;
 	text-align: center;
 }
 
@@ -42,7 +42,7 @@ body{
 	background-color: #777777;	
 }
 
-.about{
+.page-content{
 	background-color: #ffffff;
 	width: 650px;
 	border:1px solid #dddddd;
@@ -89,7 +89,27 @@ li{
 }
 
 hr{
-	border-color: #ffffff;
+	border-color: #cccccc;
+	width: 98%;	
 }
 
+input, textarea{
+	border:1px solid #dddddd;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 97%;
+	padding: 5px;
 
+}
+
+textarea{
+	resize: none;
+	height: 15em;
+}
+
+button{
+	background-color: #4aaaa5;
+	border: none;
+	padding: 9px 27px;
+	color: #ffffff;
+}
