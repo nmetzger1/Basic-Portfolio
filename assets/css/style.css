@@ -1,8 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
 html, body{
 	height: 100%;
 }
@@ -21,22 +16,33 @@ header{
 }
 
 h1,h2,h3{
-	font-family: 'Georgia', Times, Times New Roman, serif;	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;	
 }
 
 h1{
 	position: relative;
 	left: 50px; 
-	padding-top: 20px;
+	padding-top: 28px;
 	color: #ffffff;
 	background-color: #4aaaa5;
 	width: 300px;
-	height: 61px;
+	height: 53px;
 	text-align: center;
+	font-size: xx-large;
+
 }
 
 h2,h3{
 	color: #4aaaa5;
+}
+
+h2{
+	font-size: x-large;
+}
+
+h3{
+	font-size: larger;
 }
 
 body{
@@ -46,6 +52,8 @@ body{
 	background-color: #777777;	
 }
 
+
+/* Main Content for all pages */
 .page-content{
 	background-color: #ffffff;
 	width: 650px;
@@ -53,7 +61,8 @@ body{
 	padding: 1em;
 	float: left;
 	margin-top: 15px;
-	margin-left: 50px;	
+	margin-left: 50px;
+	height: auto !important;	
 }
 
 .wrap{
@@ -66,10 +75,12 @@ body{
 	display: block;
 }
 
+hr{
+	border-color: #cccccc;
+	width: 98%;	
+}
+
 .connect{
-	/*float: left;
-	margin-left: 750px;
-	margin-top: 13px;*/
 	position: absolute;
 	left: 755px;
 	top: 97px;
@@ -77,21 +88,24 @@ body{
 	text-align: center;	
 	border:1px solid #dddddd;
 	padding: 1em;
+	width: 270px;
 }
 
-#image1{
-	float: left;
+.conn-img{
+	height: 75px;
+	width: 75px;
+	padding: 4px;
 }
+
 
 a{
 	text-decoration: none;
 	color: #777777;
-
 }
 
 .navigation{
 	position: absolute;
-	width: 240px;
+	width: 300px;
 	top: 35px;
 	left: 600px;
 	text-align: center;
@@ -103,10 +117,18 @@ li{
 	padding: 10px;
 }
 
-hr{
-	border-color: #cccccc;
-	width: 98%;	
+/* Index.html */
+
+.aboutme{
+	padding: .5em;
 }
+
+#image1{
+	float: left;
+}
+
+
+/*  Contact Page   */
 
 input, textarea{
 	border:1px solid #dddddd;
@@ -129,22 +151,50 @@ button{
 	color: #ffffff;
 }
 
+/* Portfolio Page */
+
+/*  div containing port-image & labelbox   */
+.imagediv{
+	position: relative;
+	width: 290px;
+	display: inline-block;
+	margin: 0px 10px;
+	
+}
+
 .port-image{
 	height: 210px;
 	width: 280px;
 	margin: 20px;
+	border: 1px solid #dddddd;
 }
 
-.footer{
-	border-top: 1px solid #000;
-    background-color: #666666;
-    color: #ffffff;
-    text-align: center;
-    padding: .5em;
-    margin-top: 35px;    
+.labelbox{
+	position: absolute;
+	height: 40px;
+	width: 280px;
+	left: 21px;
+	top: 140px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;	
+	font-size: x-large;
+	padding-top: .5em;
 }
+
+/* Footer Section  */
+.footer{
+	border-top: 6px solid #4aaaa5;
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	padding: .5em;
+	margin-top: 35px;    
+}
+
 
 .footer, .wrap:after{
 	height: 35px;
 	clear: both;
 }
+
