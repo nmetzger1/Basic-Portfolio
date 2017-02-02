@@ -141,6 +141,9 @@ li{
 
 #image1{
 	float: left;
+	width: 200px;
+	height: auto;
+	margin: 0 10px 0 5px;
 }
 
 
@@ -219,6 +222,7 @@ button{
 
 .footer, .wrap:after{
 	height: 35px;
+	max-width: 100%;
 	clear: both;
 }
 
