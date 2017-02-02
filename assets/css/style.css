@@ -39,6 +39,7 @@ h2,h3{
 
 h2{
 	font-size: x-large;
+	padding-left: 5px;
 }
 
 h3{
@@ -77,7 +78,8 @@ body{
 
 hr{
 	border-color: #cccccc;
-	width: 98%;	
+	width: 98%;
+	margin-top: 15px;
 }
 
 .connect{
@@ -97,6 +99,11 @@ hr{
 	padding: 4px;
 }
 
+.conn-img:hover{
+	border: 2px solid #664AC1;
+	padding: 2px;
+}
+
 
 a{
 	text-decoration: none;
@@ -112,6 +119,14 @@ a{
 	color: #777777;
 }
 
+.navigation a:hover{
+	background-color: #664AC1;
+	opacity: .75;
+	color: #ffffff;
+	border: 2px solid #664AC1;
+	margin: 0 -2px;
+}
+
 li{
 	display: inline-block;
 	padding: 10px;
@@ -121,6 +136,7 @@ li{
 
 .aboutme{
 	padding: .5em;
+	line-height: 1.35em;
 }
 
 #image1{
@@ -158,28 +174,36 @@ button{
 	position: relative;
 	width: 290px;
 	display: inline-block;
-	margin: 0px 10px;
-	
+	margin: 10px 10px;
+	left: 10px;	
 }
 
 .port-image{
 	height: 210px;
 	width: 280px;
-	margin: 20px;
-	border: 1px solid #dddddd;
+}
+
+.imagediv:hover{
+	opacity: .5;
+}
+
+.imagediv:hover .labelbox{
+	font-size: 175%;
+	padding-top: 10px;
+	height: 43px;
+	background-color: #664AC1;
 }
 
 .labelbox{
 	position: absolute;
 	height: 40px;
 	width: 280px;
-	left: 21px;
 	top: 140px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;	
-	font-size: x-large;
 	padding-top: .5em;
+	font-size: x-large;
 }
 
 /* Footer Section  */
