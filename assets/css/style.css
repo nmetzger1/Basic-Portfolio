@@ -4,7 +4,8 @@ html, body{
 
 header{
 	background-color: #ffffff;
-	width: 100%;
+	width:100%;
+	min-width: 1040px;
 	height: 80px;
 	border-bottom: 2px;
 	border-top: 0;
@@ -22,7 +23,7 @@ h1,h2,h3{
 
 h1{
 	position: relative;
-	left: 50px; 
+	left: 35px;
 	padding-top: 28px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -57,12 +58,13 @@ body{
 /* Main Content for all pages */
 .page-content{
 	background-color: #ffffff;
-	width: 650px;
+	width: 616px;
 	border:1px solid #dddddd;
 	padding: 1em;
 	float: left;
 	margin-top: 15px;
-	margin-left: 50px;
+	margin-left: 35px;
+	margin-bottom: 15px;
 	height: auto !important;	
 }
 
@@ -77,6 +79,7 @@ body{
 }
 
 hr{
+	border-style: solid;
 	border-color: #cccccc;
 	width: 98%;
 	margin-top: 15px;
@@ -90,12 +93,12 @@ hr{
 	text-align: center;	
 	border:1px solid #dddddd;
 	padding: 1em;
-	width: 270px;
+	width: 236px;
 }
 
 .conn-img{
-	height: 75px;
-	width: 75px;
+	height: 65px;
+	width: auto;
 	padding: 4px;
 }
 
@@ -112,7 +115,7 @@ a{
 
 .navigation{
 	position: absolute;
-	width: 300px;
+	min-width: 300px;
 	top: 35px;
 	left: 600px;
 	text-align: center;
@@ -175,15 +178,15 @@ button{
 /*  div containing port-image & labelbox   */
 .imagediv{
 	position: relative;
-	width: 290px;
+	width: 270px;
 	display: inline-block;
 	margin: 10px 10px;
 	left: 10px;	
 }
 
 .port-image{
-	height: 210px;
-	width: 280px;
+	height: auto;
+	width: 260px;
 }
 
 .imagediv:hover{
@@ -200,8 +203,8 @@ button{
 .labelbox{
 	position: absolute;
 	height: 40px;
-	width: 280px;
-	top: 140px;
+	width: 260px;
+	top: 125px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;	
@@ -215,14 +218,15 @@ button{
 	background-color: #666666;
 	color: #ffffff;
 	text-align: center;
-	padding: .5em;
-	margin-top: 35px;    
+	padding-top: .5em;
+	margin-top: -69px;
+	height: 55px;
 }
 
 
 .footer, .wrap:after{
-	height: 35px;
-	max-width: 100%;
 	clear: both;
+	width: 100%;
+	min-width: 1040px;
 }
 
